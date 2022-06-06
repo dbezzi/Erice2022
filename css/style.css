@@ -1,0 +1,122 @@
+body
+{
+  color: #444;
+  font-family: Verdana,sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1
+{
+  color: #844;  
+  font-family: Arial;  
+  font-size: 36px;
+  padding-top: 50px;
+}
+
+h2 {font-size: 30px;}
+h3 {font-size: 24px;}
+
+h2.padding
+{
+  /* impedisce ai link di sparire sotto la barra di navigazione */
+  padding-top: 90px;
+  margin-top: -50px;
+}
+
+h3.organizzatore
+{
+  color: #844;   
+  margin-bottom: 0;
+  padding-bottom: 0;  
+}
+
+table
+{
+  min-width: 225px;  
+  width: 900px;
+  font-size: 15px;
+}
+
+td.orario 
+{
+  min-width: 30px;
+  width: 120px;
+  max-width: 120px;
+}
+
+td.speaker 
+{
+  min-width: 40px;
+  width: 160px;
+  max-width: 160px;
+}
+
+td.talk 
+{
+  min-width: 155px;
+  width: 620px;
+  max-width: 620px;
+}
+
+img.img-cerchio 
+{
+  border-radius: 50%;
+  width: 80%;
+}
+
+a.download
+{
+  text-decoration: none;  
+  color: white;
+  font-weight: bold;
+}
+
+a.link-bar
+{
+  text-decoration: none;  
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+a.link-bar:hover, a.link-bar:focus 
+{
+  opacity: 1;
+}
+
+div.sfondo
+{
+  background-color: #c4aead;   
+}
+
+/* barra di navigazione piccola per cellulari */ 
+.small-menu 
+{
+  background-color: #c4aead;
+  z-index: 99;
+  opacity:0;            /* invisibile */         
+  pointer-events: none;
+}
+        
+.small-menu:target 
+{
+  opacity:1;            /* visibile */ 
+  pointer-events: auto;
+}
+
+footer
+{
+  background-color: teal;
+  font-style: italic;
+  font-size: 14px;
+  color: lightgrey;
+  padding: 2px;
+}
+
+figcaption
+{
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 8px;  
+}
