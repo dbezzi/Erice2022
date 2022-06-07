@@ -3,4 +3,4 @@ This repository holds the static website for the 72nd Workshop: "*Robustness and
 
 It also serves as a proof of concept for simple, static websites written in HTML+CSS only.
 
-Conference website is located [here](https://dbezzi.github.io/Erice2022/).
+Conference website is located [here](https://workshopsperice2022.github.io).
